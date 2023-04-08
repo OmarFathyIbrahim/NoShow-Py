@@ -1,0 +1,54 @@
+Project: Investigate a Dataset - [Medical Appointment No Shows]
+Table of Contents
+Introduction
+Data Wrangling
+Exploratory Data Analysis
+Conclusions
+
+S1: Introduction
+Dataset: No-show appointments
+
+Dataset Description
+This dataset collects information from 100k medical appointments in Brazil and is focused on the question of whether or not patients show up for their appointment. A number of characteristics about the patient are included in each row.
+
+PatientId: Identification of patient ID.
+AppointmentID: Identification of appointment ID.
+Gender: Male or Female
+ScheduledDay: Date/Time the patient set up their appointment.
+AppointmentDay: indicates the date/time the patient called to book their appointment.
+Age: indicates the patient's age.
+Neighborhood: indicates the location of the hospital.
+Scholarship: True of False.
+Hipertension: True of False.
+Diabetes: True of False.
+Alcoholism: True of False.
+Handcap: True of False.
+SMS_received: True of False.
+Show-up: True of False.
+
+S2: Data Wrangling
+A. General Properties
+A.1 Dimensions. A.2 Rows & Columns. A.3 Data types.
+
+2. Missing/Duplicated/Incorrect Data Validation
+
+3. Data Cleaning
+
+Exploratory Data Analysis
+I have to ask some questions to dig deep into our dataset: 1- What is the overall appointment categories ratio%? 2- Which group of patients Show up less?
+
+Conclusions
+Tip: Finally, summarize your findings and the results that have been performed in relation to the question(s) provided at the beginning of the analysis. Summarize the results accurately, and point out where additional research can be done or where additional information could be useful.
+
+Tip: Make sure that you are clear with regards to the limitations of your exploration. You should have at least 1 limitation explained clearly.
+
+Tip: If you haven't done any statistical tests, do not imply any statistical conclusions. And make sure you avoid implying causation from correlation!
+
+Tip: Once you are satisfied with your work here, check over your report to make sure that it is satisfies all the areas of the rubric (found on the project submission page at the end of the lesson). You should also probably remove all of the "Tips" like this one so that the presentation is as polished as possible.
+
+Submitting your Project
+Tip: Before you submit your project, you need to create a .html or .pdf version of this notebook in the workspace here. To do that, run the code cell below. If it worked correctly, you should get a return code of 0, and you should see the generated .html file in the workspace directory (click on the orange Jupyter icon in the upper left).
+
+Tip: Alternatively, you can download this report as .html via the File > Download as submenu, and then manually upload it into the workspace directory by clicking on the orange Jupyter icon in the upper left, then using the Upload button.
+
+Tip: Once you've done this, you can submit your project by clicking on the "Submit Project" button in the lower right here. This will create and submit a zip file with this .ipynb doc and the .html or .pdf version you created. Congratulations!
